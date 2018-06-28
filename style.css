@@ -1,0 +1,44 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url("images/temp_background.png");
+}
+
+.banner {
+	padding:0;
+	height: 30%;
+	width: 100%;
+	overflow: hidden;
+	border: solid;
+	background-color: #80ced6;
+	border-color: #000000;
+	border-width: 0px 0px 50px 0px;
+}
+
+.banner > .banner-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    
+}
+
+.footer {
+	padding:0;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+	height: 10%;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
